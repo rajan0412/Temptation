@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <meta charset="UTF-8">
+   <title>Temptation</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" type="img/png" href="assets/img/icon/favicon.png">
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+   <link rel="stylesheet" href="assets/css/flaticon.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+   <link rel="stylesheet" href="assets/css/owl.carousel.css">
+   <link rel="stylesheet" href="assets/css/nice-select.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="wrapper-home">
+   <!-- preloader - start -->
+   <div id="wrapper-preloader"></div>
+   <div class="up">
+      <a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+   </div>
+      <!-- Start of header section
+         ============================================= -->
+         <header id="wrapper-header" class="wrapper-header-main header-style-two">
+            <div class="container">
+               <div class="wrapper-header-content clearfix">
+                  <div class="wrapper-brand-logo float-left"><a href="index.html"><img src="assets/img/logo/logo_1.png" alt=""></a>
+                  </div>
+                  <div class="wrapper-main-nav-wrap">
+                     <nav class="wrapper-main-navigation float-left ul-li">
+                        <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                           <li>
+                              <a href="index.html">Home</a>
+                           </li>
+                           <li><a href="about.html">About</a>
+                           </li>
+                           <li>
+                              <a href="course.html">Course</a>
+                           </li>
+                           <li>
+                              <a href="index.html">Services</a>
+                           </li>
+                           <li>
+                              <a href="contact.html">Contact</a>
+                           </li>
+                        </ul>
+                     </nav>
+                     <div class="wrapper-mobile-menu-wrap">
+                        <div class="wrapper-mobile_menu position-relative">
+                           <div class="wrapper-mobile_menu_button wrapper-open_mobile_menu">
+                              <i class="fas fa-bars"></i>
+                           </div>
+                           <div class="wrapper-mobile_menu_wrap">
+                              <div class="mobile_menu_overlay wrapper-open_mobile_menu"></div>
+                              <div class="wrapper-mobile_menu_content">
+                                 <div class="wrapper-mobile_menu_close wrapper-open_mobile_menu">
+                                    <i class="fas fa-times"></i>
+                                 </div>
+                                 <div class="m-brand-logo text-center">
+                                    <a href="#"><img src="assets/img/logo/logo_2.png" alt=""></a>
+                                 </div>
+                                 <nav class="wrapper-mobile-main-navigation  clearfix ul-li">
+                                    <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                       <li>
+                                          <a href="index.html">Home</a>
+                                       </li>
+                                       <li><a href="about.html">About</a></li>
+                                       <li>
+                                          <a href="course.html">Course</a>
+                                       </li>
+                                       <li>
+                                          <a href="service.html">Services</a>
+                                       </li>
+                                       <li>
+                                          <a href="contact.html">Contact</a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- /Mobile-Menu -->
+                     </div>
+                  </div>
+                  <div class="wrapper-header-cart-login float-right">
+                     
+                     <div class="wrapper-top-cart-login">
+                        <button data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- Login-Sign Form -->
+         <div class="modal wrapper-login-modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="wrapper-modal-header position-relative" data-background="assets/img/banner/blg-2.12.jpg">
+                     <div class="wrapper-login-head text-center pera-content">
+                        <a href="index.html"><img src="assets/img/logo/logo_2.png" alt=""></a>
+                        <p>Find the best courses & become master</p>
+                     </div>
+                  </div>
+                  <div class="modal-body">
+                     <div class="wrapper-modal-signup-login-tab">
+                        <div class="wrapper-faq-tab-btn ul-li">
+                           <ul id="tabs" class="nav text-center nav-tabs faq-tab-btn-area">
+                              <li class="nav-item"><a href="#" data-target="#login" data-toggle="tab"
+                                    class="nav-link text-capitalize active">Login</a></li>
+                              <li class="nav-item"><a href="#" data-target="#signUp" data-toggle="tab"
+                                    class="nav-link text-capitalize">Sign Up</a></li>
+                           </ul>
+                        </div>
+                        <div id="tabsContent" class="tab-content">
+                           <div id="login" class="tab-pane fade active show">
+                              <div class="wrapper-login-content pera-content text-center">
+                                 <form action="#" method="post">
+                                    <input type="text" placeholder="Username or email">
+                                    <input type="text" placeholder="Password">
+                                    <div class="wrapper-login-label clearfix">
+                                       <span><input type="checkbox">Remember me</span>
+                                       <a href="#">Forget Password?</a>
+                                    </div>
+                                    <button type="submit">Submit</button>
+                                 </form>
+                                 <p>Don’t have any account? <a href="#">Signup</a></p>
+                              </div>
+                           </div>
+                           <div id="signUp" class="tab-pane fade">
+                              <div class="wrapper-sign-up-content pera-content text-center">
+                                 <form action="#" method="post">
+                                    <input type="text" placeholder="First Name">
+                                    <input type="text" placeholder="Last Name">
+                                    <input type="email" placeholder="Email address">
+                                    <input type="text" placeholder="Username">
+                                    <input type="text" placeholder="Password">
+                                    <input type="text" placeholder="Confirm password">
+                                    <div class="wrapper-login-label clearfix">
+                                       <span><input type="checkbox">By clicking signup you are agree to our terms of
+                                          service</span>
+                                    </div>
+                                    <button type="submit">Submit</button>
+                                 </form>
+                                 <p>Already have an account? <a href="#">Log in</a></p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div> 
+      <!-- Start of header section
+         ============================================= -->
+
+      <!-- Start of breadcrumb section
+         ============================================= -->
+         <section id="wrapper-breadcrumb" class="wrapper-breadcrumb-section position-relative" data-background="assets/img/banner/bn-bg1.jpg">
+            <span class="breadcrumb-overlay position-absolute"></span>
+            <div class="container">
+               <div class="wrapper-breadcrumb-content text-center wrapper-headline"> 
+                  <h2>About Us</h2>
+                  <div class="wrapper-breadcrumb-item ul-li">
+                     <ul class="breadcrumb">
+                       <li class="breadcrumb-item"><a href="#">Home</a></li>
+                       <li class="breadcrumb-item active" aria-current="page">About</li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </section>
+      <!-- End of breadcrumb section
+         ============================================= -->
+
+      <!-- Start of about us  section
+         ============================================= -->   
+         <section id="about-page-about" class="about-page-about-section">
+            <div class="container">
+               <div class="about-page-about-content">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <div class="about-page-about-img">
+                           <img src="assets/img/abp.png" alt="">
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="about-page-about-text">
+                           <div class="wrapper-section-title  wrapper-headline wrapper-title-style-two position-relative">
+                              <p class="title-watermark">About us</p>
+                              <span>About us</span>
+                              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+                           </div>
+                           <div class="about-page-about-text-wrap">
+                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum quos quam nemo. Accusantium tempore neque harum delectus doloremque nisi commodi obcaecati veniam consectetur iusto!
+                           </div>
+                           <div class="about-page-about-video">
+                              <div class="ab-page-video-area position-relative float-left">
+                                 <img src="assets/img/ab-v.jpg" alt="">
+                                 <a class="video_box text-center" href="https://www.youtube.com/watch?v=HndV87XpkWg"> <i class="fas fa-play"></i></a>
+                              </div>
+                              <div class="ab-page-video-text wrapper-headline pera-content">
+                                 <h3>Lorem ipsum dolor sit amet.!</h3>
+                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, vero.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      <!-- End of about us  section
+         ============================================= -->
+
+      <!-- Start of service  section
+         ============================================= -->
+         <section id="about-page-service" class="about-page-service-section" data-background="assets/img/banner/ser-bg.jpg">
+            <div class="container">
+               <div class="wrapper-section-title text-center wrapper-headline wrapper-title-style-two position-relative">
+                  <p class="title-watermark">Course</p>
+                  <span>Our Popular Courses </span>
+                  <h2>The largest selection of courses
+                     for learning
+                  </h2>
+               </div>
+               <div class="wrapper-feature-content">
+                  <div class="row justify-content-center">
+                     <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-feature-innerbox position-relative">
+                           <div class="wrapper-feature-icon float-left">
+                              <i class="flaticon-give"></i>
+                           </div>
+                           <div class="wrapper-feature-text wrapper-headline pera-content">
+                              <h3><a href="#">Learn at affordable price</a></h3>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, eum.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-feature-innerbox position-relative">
+                           <div class="wrapper-feature-icon float-left">
+                              <i class="flaticon-goal"></i>
+                           </div>
+                           <div class="wrapper-feature-text wrapper-headline pera-content">
+                              <h3><a href="#">Learn at your own pace</a></h3>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, repellendus!</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-feature-innerbox position-relative">
+                           <div class="wrapper-feature-icon float-left">
+                              <i class="flaticon-presentation"></i>
+                           </div>
+                           <div class="wrapper-feature-text wrapper-headline pera-content">
+                              <h3><a href="#">Learn from the scratch</a></h3>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, perferendis!</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      <!-- End of service  section
+         ============================================= -->
+
+      <!-- Start of registrastion  section
+         ============================================= -->
+         <section id="wrapper-registration-3" class="wrapper-registration-section-3 position-relative">
+            <div class="container">
+               <div class="wrapper-registration-content-2 position-relative wrapper-headline pera-content">
+                  <span class="registration-side-img position-absolute"><img src="assets/img/rm1.png" alt=""></span>
+                  <div class="registration-text-2">
+                     <h3>We also provide all type of <br> <span>Web design & Web development services</span>
+                     </h3>
+                     
+                     <a href="service.html">See More </a>
+                  </div>
+               </div>
+            </div>
+         </section>            
+      <!-- End of registrastion  section
+         ============================================= -->
+
+      <!-- Start of testimonial  section
+         ============================================= -->      
+         <section id="wrapper-testimonial-2" class="wrapper-testimonial-section-2">
+            <div class="container">
+               <div class="wrapper-section-title text-center wrapper-headline wrapper-title-style-two position-relative">
+                  <p class="title-watermark">Testimonials</p>
+                  <span>Testimonials </span>
+                  <h2>We have many courses in our
+                     top Categories
+                  </h2>
+               </div>
+               <div class="wrapper-testimonial-content-2">
+                  <div id="wrapper-testimonial-slide-2" class="wrapper-testimonial-wrap-2 owl-carousel">
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Best Support ever!</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a1.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Alina Lora</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Good cleaning service</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a2.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Tanir Fro</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Service satisfaction!</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a3.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Leofar Lord</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Best teaching tips!</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a4.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Rohit Grow</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Best Support ever!</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a1.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Alina Lora</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Good cleaning service</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a2.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Tanir Fro</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Service satisfaction!</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a3.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Leofar Lord</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wrapper-testimonial-img-text-2 wrapper-headline position-relative pera-content">
+                        <div class="wrapper-testimonial-icon-2">
+                           <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="wrapper-testimonial-text-2">
+                           <h3>Best teaching tips!</h3>
+                           <p>5 stars for design quality, but also for prompt new customer service and great attention to details work.</p>
+                        </div>
+                        <div class="wrapper-testimonial-author-2 clearfix">
+                           <div class="wrapper-testi-author-img-2 position-relative float-left">
+                              <img src="assets/img/testi-a4.jpg" alt="">
+                           </div>
+                           <div class="wrapper-testi-author-text-2">
+                              <h4><a href="#">Rohit Grow</a></h4>
+                              <span>Formar Manager.</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      <!-- End of testimonial  section
+         ============================================= -->   
+
+      <!-- Start of Footer  section
+         ============================================= -->  
+         <footer id="wrapper-footer" class="wrapper-footer-section-2" data-background="assets/img/f-bg.jpg">
+            <div class="container">
+               <div class="wrapper-footer-content-wrap">
+                  <div class="row">
+                     <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-footer-widget">
+                           <div class="wrapper-footer-logo-widget wrapper-headline pera-content">
+                              <div class="wrapper-footer-logo">
+                                 <a href="#"><img src="assets/img/logo/logo_2.png" alt=""></a>
+                              </div>
+                              <p>We strive to provide the best in class online learning experience.</p>
+                              <a class="footer-logo-btn text-center text-uppercase" href="about.html">About us</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-footer-widget">
+                           <div class="wrapper-footer-newslatter-widget pera-content">
+                              <h3 class="widget-title">Newsletter</h3>
+                              <p>Subscribe our newsletter to get our
+                                 latest update & news
+                              </p>
+                              <form action="#">
+                                 <input type="email" placeholder="Your mail address">
+                                 <button type="submit"><i class="far fa-paper-plane"></i></button>
+                              </form>
+                              
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6">
+                        <div class="wrapper-footer-widget">
+                           <div class="wrapper-footer-info-widget ul-li">
+                              <h3 class="widget-title">Official info:</h3>
+                              <ul>
+                                 <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                 </li>
+                                 <li>
+                                    <i class="fas fa-phone"></i><a href="#">123-123-123</a>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div class="wrapper-footer-copyright text-center"><span>© 2021 Temptation. All rights reserved.</span></div>
+            </div>
+         </footer>
+      <!-- End of Footer section
+         ============================================= -->   
+<!-- Login-Sign Form -->
+         <div class="modal wrapper-login-modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="wrapper-modal-header position-relative" data-background="assets/img/banner/lg-bg.jpg">
+                     <div class="wrapper-login-head text-center pera-content">
+                        <a href="#"><img src="assets/img/logo/logo4.png" alt=""></a>
+                        <p>Boamco laboris nisi ut aliquip ex ea commodo conseq nderit in voluptate velit esse</p>
+                     </div>
+                  </div>
+                  <div class="modal-body">
+                     <div class="wrapper-modal-signup-login-tab">
+                        <div class="wrapper-faq-tab-btn ul-li">
+                           <ul id="tabs" class="nav text-center nav-tabs faq-tab-btn-area">
+                              <li class="nav-item"><a href="#" data-target="#login" data-toggle="tab" class="nav-link text-capitalize active">Login</a></li>
+                              <li class="nav-item"><a href="#" data-target="#signUp" data-toggle="tab" class="nav-link text-capitalize">Sign Up</a></li>
+                           </ul>
+                        </div>
+                        <div id="tabsContent" class="tab-content">
+                           <div id="login" class="tab-pane fade active show">
+                              <div class="wrapper-login-content pera-content text-center">
+                                 <form action="#" method="post">
+                                    <input type="text" placeholder="Username or email">
+                                    <input type="text" placeholder="Password">
+                                    <div class="wrapper-login-label clearfix">
+                                       <span><input type="checkbox">Remember me</span>
+                                       <a href="#">Forget Password?</a>
+                                    </div>
+                                    <button type="submit">Submit</button>
+                                 </form>
+                                 <p>Don’t have any account? <a href="#">Signup</a></p>
+                              </div>
+                           </div>
+                           <div id="signUp" class="tab-pane fade">
+                              <div class="wrapper-sign-up-content pera-content text-center">
+                                 <form action="#" method="post">
+                                    <input type="text" placeholder="First Name">
+                                    <input type="text" placeholder="Last Name">
+                                    <input type="email" placeholder="Email address">
+                                    <input type="text" placeholder="Username">
+                                    <input type="text" placeholder="Password">
+                                    <input type="text" placeholder="Confirm password">
+                                    <div class="wrapper-login-label clearfix">
+                                       <span><input type="checkbox">By clicking signup you are agree to our terms of service</span>
+                                    </div>
+                                    <button type="submit">Submit</button>
+                                 </form>
+                                 <p>Already have an account? <a href="#">Log in</a></p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- JS library -->
+         <script src="assets/js/jquery.js"></script>
+         <script src="assets/js/popper.min.js"></script>
+         <script src="assets/js/appear.js"></script>
+         <script src="assets/js/bootstrap.min.js"></script>
+         <script src="assets/js/wow.min.js"></script>
+         <script src="assets/js/jquery.fancybox.js"></script>
+         <script src="assets/js/owl.js"></script>
+         <script src="assets/js/isotope.pkgd.min.js"></script>
+         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+         <script src="assets/js/masonry.pkgd.min.js"></script>
+         <script src="assets/js/parallax-scroll.js"></script>
+         <script src="assets/js/jquery.nice-select.min.js"></script>
+         <script src="assets/js/typer.js"></script>
+         <script src="assets/js/custom.js"></script>
+      </body>
+
+</html>   
